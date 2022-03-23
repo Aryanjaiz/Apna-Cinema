@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE KASHMIR FILES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="booking.css">
+    <style>
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        body{
+            background-color: black;
+        }
+        #seseat{
+            padding-top: 30px;
+            padding-left: 35px;
+        }
+        #slide{
+            margin-left:370px;
+            margin-top:30px;
+        }
+
+    </style>
+</head>
+
+    
+<body >
+    <header>
+    <nav style="color:rgb(243, 160, 5);"class="navbar navbar-expand-lg navbar-light bg-black">
+        <nav style=" color:rgb(243, 160, 5);background-color:black;padding-top:2px;padding-bottom:2px;" class="navbar navbar-light ">
+            <div  style="color:rgb(243, 160, 5);background-color:black"class="container">
+              <a class="navbar-brand" href="#">
+                <img src="final logo.jpg" alt="" width="110" height="60">
+              </a>
+            </div>
+          </nav>
+        <div  class="container-fluid">
+          <a class="navbar-brand"style="color:rgb(243, 160, 5);" href="#">HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active"style="color:rgb(243, 160, 5);"  aria-current="page" href="#">TRAILERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:rgb(243, 160, 5);" href="#" onclick="scrol(this)">BOOK NOW</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:rgb(243, 160, 5);" href="#" onclick="scrl(this)">ABOUT</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" style="background-color:rgb(243, 160, 5);border: none;"type="search" placeholder="Search" aria-label="Search">
+              <button class="search" id="searchBtn">&#128269;</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+    <div>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/A179apttY58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div>
+        <main class="container" id="main">
+            <div class="input-container" id="slide">
+
+                <div class="seatVacant">
+                    <span>
+                        <div class="vacant">.</div>
+                        <h4>N/A</h4>
+                    </span>
+                    <span>
+                        <div class="occupied">.</div>
+                        <h4>Occupied</h4>
+                    </span>
+                    <span>
+                        <div class="selected">.</div>
+                        <h4>Selected</h4>
+                    </span>
+                </div>
+            </div>
+    </div>
+    <div style="margin-left:450px;margin-top:40px">
+        <input class="form-control me-2" style="width:300px;border: none;"type="date" placeholder="Select A Date" aria-label="DATE">
+    </div>
+    <div id="body" style="width: 900px;margin-left:350px;margin-top:40px">
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <br>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <br>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <br>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <br>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <br>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="display:inline"><img src="unselected.jpg" alt="" onclick="select(this)"></div>
+        <img src="unselected.jpg" alt="" onclick="select(this)" onclick="select(this)">
+    </div>
+    <br>
+    <br>
+    <h7 style="color: white;display:block;margin-left:500px">All Eyes This Side Please</h7>
+    <img src="screen.png" alt="" onclick="select(this)" style="width:330px;height:80px;margin-left:425px">
+    <div id="seseat" style="margin-left:415px">You have selected 0 seats for price of ₹ 0 </div>
+    <a href="Payment Form.html"target="_blank">
+    <button id="payment" style="margin-left:350px;width:500px;height: 50px;margin-top:20px"type="button" class="btn btn-success">Pay Now</button> 
+    </a>
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6 style="color:rgb(243, 160, 5);">About</h6>
+              <p class="text-justify">The founder of <i style="color:rgb(243, 160, 5)">APNA CINEMA</i> is Mr. Aryan Jaiswal .This site helps you to find the tickets for the movie shows and concert ,So that you can get entertained more comfortably.</p>
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <h6 style="color:rgb(243, 160, 5);">Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#" id="foot">About Us</a></li>
+                <li><a href="#" id="foot">Contact Us</a></li>
+                <li><a href="#" id="foot">Contribute</a></li>
+                <li><a href="#" id="foot">Privacy Policy</a></li>
+                <li><a href="#" id="foot">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+           <a href="#" id="foot">Aryan Jaiswal</a>.
+              </p>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons" style="display: inline-block">
+                <h6 style="display:inline-block;color:rgb(243, 160, 5);margin-right: 10px;">Contact Us</h6>
+                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+<script>
+    let selseat=0;
+    function select(element)
+    {
+        selseat=selseat+1;
+        let simg=document.createElement("div");
+        simg.style.display="inline";
+        simg.innerHTML=`<img src="selected.jpg" alt="" onclick="dselect(this)">`
+        let parent=element.parentNode;
+        parent.replaceWith(simg)
+        let sseat=document.getElementById("seseat")
+        sseat.textContent=`You have selected ${selseat} seats for price of ₹ ${selseat*400}`
+        let pay=document.getElementById("payment")
+        payment.textContent=`PAY  ₹ ${selseat*400}`
+    }
+    function dselect(element)
+    {
+        selseat=selseat-1;
+        let simg=document.createElement("div");
+        simg.style.display="inline";
+        simg.innerHTML=`<img src="unselected.jpg" alt="" onclick="select(this)">`
+        let parent=element.parentNode;
+        parent.replaceWith(simg)
+        let sseat=document.getElementById("seseat")
+        sseat.textContent=`You have selected ${selseat} seats for price of ₹ ${selseat*400}`
+        let pay=document.getElementById("payment")
+        payment.textContent=`PAY  ₹ ${selseat*400}`
+    }
+</script>
+</html>
